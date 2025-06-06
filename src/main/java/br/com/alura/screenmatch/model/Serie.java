@@ -87,11 +87,11 @@ public class Serie {
         this.totalTemporadas = totalTemporadas;
     }
 
-    public String getAvaliacao() {
+    public Double getAvaliacao() {
         return avaliacao;
     }
 
-    public void setAvaliacao(String avaliacao) {
+    public void setAvaliacao(Double avaliacao) {
         this.avaliacao = avaliacao;
     }
 
@@ -139,7 +139,7 @@ public class Serie {
     @Override
     public String toString() {
         return "genero=" + genero +"\n" + "titulo=" + titulo + "\n" + "totalTemporadas=" + totalTemporadas + "\n" + "avaliacao=" + avaliacao
-                + "\n" + "atores=" + atores + "\n" + "poster=" + poster + "\n" + "sinopse=" + sinopse + "\n" + "episodios=" + episodios;
+                + "\n" + "atores=" + atores + "\n" + "poster=" + poster + "\n" + "sinopse=" + sinopse + "\n";
     }
 
     
